@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(252, 248, 248)
+
+}
+
+#loginheader{
+    font-size: 3rem;
+    font-family: kanit, sans-serif;
+    text-align: center;
+    margin-bottom: 5rem;
+    letter-spacing: 0.25rem;
+    color: white
+}
+
+.labels{
+    font-family: kanit, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    letter-spacing: 0.1rem;
+    background-image: url("/src/assets/Stranger-Things-logo.png");
+}
+
+#loginbutton{
+    width: 8rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-color: rgb(23, 23, 23);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-family: kanit, sans-serif;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 253, 253);
+    letter-spacing: 0.1rem;
+   
+}

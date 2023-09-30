@@ -1,0 +1,28 @@
+
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Kanit;
+  font-size: 1.25rem;
+
+}
+
+.profileTag {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.profileMessages {
+  font-size: 2rem;
+  /* border: 2px solid rgb(241, 5, 5); */
+  margin: 2rem;
+  padding: 1%;
+  /* background-color: #f8f6f6; */
+  font-family: Kanit;
+  color: rgb(236, 13, 13)
+}
+
